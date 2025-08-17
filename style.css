@@ -1,0 +1,260 @@
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 100vw;
+    height: 300px;
+    /*border: 1px solid #ccc;*/
+    
+}
+
+.hd-quad   {
+    flex-basis: 40%;
+    
+    /*height 50%;*/
+    display: flex;
+    justify-content: center;
+    
+    /*border: 1px solid lightgray;*/
+    box-sizing: border-box;
+    
+}
+
+
+.top-left   {
+    font-size: 24px;
+    display: flex;
+    margin-left: 10%;
+    color: #f9faf8;
+    
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+.top-right   {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 10%;
+    padding-top: 10px;
+}
+
+.bottom-left    {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.bottom-right   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    background-color: lightslategray;
+    margin-bottom: 2%;
+}
+
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-sec-text  {
+    font-size: 18px;
+    color:#e5e7eb;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button    {
+    background-color: #3882f6;
+    border-radius: 6px;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul  {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    color: white;
+}
+
+
+.rand-info-sect {
+    text-align: center;
+    /*border: solid 2px #3882f6;*/
+    height: 350px;
+}
+
+.rand-sect-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+}
+
+.title  {
+    font-size: 36px;
+    color: #1f2937;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.blue-box {
+        width: 100px; /* Set the width of the box */
+        height: 100px; /* Set the height of the box */
+        background-color: lightblue; /* Set the background color of the box */
+        border: 2px solid blue; /* Set the border: width, style, and color */
+        border-radius: 10px;
+        padding: 20px; /* Add some padding inside the box */
+        margin: 0; /* Add some margin outside the box */
+        margin-bottom: 4px;
+    }
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width:100px;
+    height:100px;
+  
+}
+
+
+.quote-sect {
+    display: flex;
+    text-align: center;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e5e7eb;
+  
+}
+
+.quote-sect-cont    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 85vh;
+    height: 70%;
+}
+
+.quote-text  {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    color: #1f2937;
+    margin-bottom: 0;
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-ref  {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    color: black;
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-sect    {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+        /*border: solid 2px #3882f6;*/
+
+
+
+}
+
+.action-cont    {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #3882f6;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 80%;
+    height: 30%;
+
+    /*width: 100px; /* Set the width of the box */
+    /*height: 100px; /* Set the height of the box */
+    /*background-color: lightblue; /* Set the background color of the box */
+    /*border: 2px solid blue; /* Set the border: width, style, and color */
+    /*border-radius: 10px;
+    padding: 20px; /* Add some padding inside the box */
+    /*margin: 0; /* Add some margin outside the box */
+    /*margin-bottom: 4px;*/
+
+
+}
+
+.action-cont p  {
+    margin-right: 15px;
+    margin-left: 150px;
+    margin-top: -10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: white;
+
+}
+
+.action-cont button {
+    /*padding: 10px 20px;*/
+    font-size: 12px;
+    color: white;
+    width: 100px;
+    height: 25px;
+    line-height: 9px;
+    background-color: #3882f6;
+    border: solid white;
+    border-radius: 4px;
+    margin-right: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    color: white;
+    background-color: #1f2937;
+    font-size: 12px;
+}
